@@ -1,0 +1,28 @@
+{
+  "category": "gcp-serverless-patterns",
+  "subcategory": "cloud-functions-gen2",
+  "prompt_type": "pattern",
+  "python_version": "3.12",
+  "gcp_services": ["cloud-functions-gen2", "pubsub", "gcs", "eventarc", "secret-manager"],
+  "estimated_time_saved": "1 hour per function",
+  "dependencies": [
+    "functions-framework",
+    "cloudevents",
+    "google-cloud-pubsub",
+    "google-cloud-storage",
+    "google-cloud-secret-manager"
+  ],
+  "generates": [
+    "main.py logic",
+    "terraform configuration"
+  ],
+  "quality_gates": {
+    "idempotency_handled": true,
+    "least_privilege_iam": true
+  },
+  "deployment_target": "weekly",
+  "related_prompts": [
+    "../../terraform-iac/cloud-function-modules/gen2-function-terraform-prompts.md",
+    "../../observability/cloud-logging/structured-logging-python-prompts.md"
+  ]
+}

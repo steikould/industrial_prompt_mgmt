@@ -1,0 +1,22 @@
+{
+  "category": "bigquery-patterns",
+  "subcategory": "schema-design",
+  "prompt_type": "guidance",
+  "python_version": "N/A",
+  "gcp_services": ["bigquery"],
+  "estimated_time_saved": "2 hours per new table design",
+  "dependencies": [],
+  "generates": [
+    "BigQuery DDL statements",
+    "Schema design best practices"
+  ],
+  "quality_gates": {
+    "is_partitioned": true,
+    "is_clustered": true
+  },
+  "deployment_target": "N/A",
+  "related_prompts": [
+    "../query-optimization/partition-pruning-prompts.md",
+    "../data-loading/streaming-inserts-python-prompts.md"
+  ]
+}

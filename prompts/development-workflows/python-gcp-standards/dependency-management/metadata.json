@@ -1,0 +1,21 @@
+{
+  "category": "python-gcp-standards",
+  "subcategory": "dependency-management",
+  "prompt_type": "workflow",
+  "python_version": "3.12",
+  "gcp_services": ["cloud-functions-gen2", "cloud-run"],
+  "estimated_time_saved": "1 hour per dependency issue",
+  "dependencies": [
+    "pip-tools"
+  ],
+  "generates": [
+    "requirements.in",
+    "requirements.txt",
+    "Dockerfile best practices"
+  ],
+  "quality_gates": {
+    "dependencies_pinned": true
+  },
+  "deployment_target": "N/A",
+  "related_prompts": []
+}

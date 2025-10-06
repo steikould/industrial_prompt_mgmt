@@ -1,0 +1,23 @@
+{
+  "category": "factory-patterns",
+  "subcategory": "pipeline-factories",
+  "prompt_type": "code-generation",
+  "python_version": "3.12",
+  "gcp_services": ["cloud-run", "dataflow", "bigquery", "gke"],
+  "estimated_time_saved": "3 hours per pipeline type",
+  "dependencies": [
+    "google-cloud-run",
+    "google-cloud-dataflow",
+    "kubernetes"
+  ],
+  "generates": [
+    "reusable Python classes for pipeline orchestration"
+  ],
+  "quality_gates": {
+    "execution_engine_agnostic": true
+  },
+  "deployment_target": "N/A",
+  "related_prompts": [
+    "../../gcp-serverless-patterns/cloud-workflows/orchestration-patterns-prompts.md"
+  ]
+}

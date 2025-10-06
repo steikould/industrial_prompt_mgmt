@@ -1,0 +1,22 @@
+{
+  "category": "factory-patterns",
+  "subcategory": "data-processor-factories",
+  "prompt_type": "code-generation",
+  "python_version": "3.12",
+  "gcp_services": ["cloud-functions-gen2", "bigquery"],
+  "estimated_time_saved": "2 hours per new data source",
+  "dependencies": [
+    "pandas"
+  ],
+  "generates": [
+    "reusable Python classes implementing the Strategy pattern"
+  ],
+  "quality_gates": {
+    "extensible_design": true
+  },
+  "deployment_target": "N/A",
+  "related_prompts": [
+    "../../scada-pi-integration/aveva-pi-system/pi-to-pubsub-streaming-prompts.md",
+    "../../bigquery-patterns/data-loading/oracle-to-bq-replication-prompts.md"
+  ]
+}

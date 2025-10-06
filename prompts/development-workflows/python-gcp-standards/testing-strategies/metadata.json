@@ -1,0 +1,27 @@
+{
+  "category": "python-gcp-standards",
+  "subcategory": "testing-strategies",
+  "prompt_type": "guidance",
+  "python_version": "3.12",
+  "gcp_services": ["bigquery", "pubsub", "cloud-functions-gen2"],
+  "estimated_time_saved": "2 hours per feature",
+  "dependencies": [
+    "pytest",
+    "pytest-mock",
+    "pytest-cov",
+    "google-cloud-pubsub[emulator]"
+  ],
+  "generates": [
+    "pytest tests",
+    "pytest fixtures",
+    "conftest.py"
+  ],
+  "quality_gates": {
+    "test_coverage": 80
+  },
+  "deployment_target": "N/A",
+  "related_prompts": [
+    "../../velocity-boosters/debugging-tools/local-pubsub-emulator-prompts.md",
+    "../../factory-patterns/testing-factories/mock-gcp-factory-prompts.md"
+  ]
+}

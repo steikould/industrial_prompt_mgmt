@@ -1,0 +1,17 @@
+{
+  "category": "gcp-serverless-patterns",
+  "subcategory": "cloud-workflows",
+  "prompt_type": "orchestration",
+  "python_version": "N/A",
+  "gcp_services": ["workflows", "cloud-functions-gen2", "cloud-run", "bigquery"],
+  "estimated_time_saved": "3 hours per workflow",
+  "dependencies": [],
+  "generates": [
+    "workflow.yaml"
+  ],
+  "quality_gates": {
+    "error_handling_implemented": true
+  },
+  "deployment_target": "weekly",
+  "related_prompts": []
+}
