@@ -1,0 +1,24 @@
+{
+  "category": "factory-patterns",
+  "subcategory": "gcp-client-factories",
+  "prompt_type": "code-generation",
+  "python_version": "3.12",
+  "gcp_services": ["bigquery", "pubsub", "storage", "secret-manager"],
+  "estimated_time_saved": "45 minutes per service",
+  "dependencies": [
+    "google-cloud-bigquery",
+    "google-cloud-pubsub",
+    "google-cloud-storage",
+    "google-cloud-secret-manager"
+  ],
+  "generates": [
+    "reusable Python classes"
+  ],
+  "quality_gates": {
+    "singleton_pattern_used": true
+  },
+  "deployment_target": "N/A",
+  "related_prompts": [
+    "../../velocity-boosters/boilerplate-libraries/gcp-commons-library-prompts.md"
+  ]
+}

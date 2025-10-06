@@ -1,0 +1,26 @@
+{
+  "category": "factory-patterns",
+  "subcategory": "ml-model-factories",
+  "prompt_type": "code-generation",
+  "python_version": "3.12",
+  "gcp_services": ["vertex-ai"],
+  "estimated_time_saved": "4 hours per model type",
+  "dependencies": [
+    "scikit-learn",
+    "torch",
+    "tensorflow",
+    "google-cloud-aiplatform",
+    "joblib"
+  ],
+  "generates": [
+    "reusable Python classes for model creation and serving"
+  ],
+  "quality_gates": {
+    "framework_agnostic_interface": true
+  },
+  "deployment_target": "N/A",
+  "related_prompts": [
+    "../../ml-vertex-ai/training-pipelines/vertex-training-sklearn-prompts.md",
+    "../../ml-vertex-ai/model-deployment/vertex-endpoint-deployment-prompts.md"
+  ]
+}

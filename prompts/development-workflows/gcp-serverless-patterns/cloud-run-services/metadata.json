@@ -1,0 +1,27 @@
+{
+  "category": "gcp-serverless-patterns",
+  "subcategory": "cloud-run-services",
+  "prompt_type": "pattern",
+  "python_version": "3.12",
+  "gcp_services": ["cloud-run", "pubsub"],
+  "estimated_time_saved": "1.5 hours per service",
+  "dependencies": [
+    "fastapi",
+    "uvicorn",
+    "google-cloud-pubsub"
+  ],
+  "generates": [
+    "main.py",
+    "Dockerfile",
+    "terraform configuration"
+  ],
+  "quality_gates": {
+    "dockerfile_optimized": true,
+    "iam_least_privilege": true
+  },
+  "deployment_target": "weekly",
+  "related_prompts": [
+    "../../terraform-iac/cloud-run-modules/cloud-run-service-terraform-prompts.md",
+    "../../python-gcp-standards/dependency-management/layer-caching-strategies-prompts.md"
+  ]
+}

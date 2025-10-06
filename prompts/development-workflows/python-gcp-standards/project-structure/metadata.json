@@ -1,0 +1,19 @@
+{
+  "category": "python-gcp-standards",
+  "subcategory": "project-structure",
+  "prompt_type": "guidance",
+  "python_version": "3.12",
+  "gcp_services": ["cloud-functions-gen2", "cloud-run"],
+  "estimated_time_saved": "30 minutes per project setup",
+  "dependencies": [],
+  "generates": [
+    "Directory structure guidance"
+  ],
+  "quality_gates": {
+    "review_required": true
+  },
+  "deployment_target": "N/A",
+  "related_prompts": [
+    "../../terraform-iac/project-structure/workspace-organization-prompts.md"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "category": "gcp-serverless-patterns",
+  "subcategory": "cloud-scheduler",
+  "prompt_type": "configuration",
+  "python_version": "N/A",
+  "gcp_services": ["scheduler", "cloud-run", "pubsub"],
+  "estimated_time_saved": "30 minutes per job",
+  "dependencies": [],
+  "generates": [
+    "terraform configuration"
+  ],
+  "quality_gates": {
+    "retry_policy_defined": true,
+    "authentication_configured": true
+  },
+  "deployment_target": "weekly",
+  "related_prompts": []
+}

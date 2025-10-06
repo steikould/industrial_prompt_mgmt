@@ -1,0 +1,21 @@
+{
+  "category": "bigquery-patterns",
+  "subcategory": "query-optimization",
+  "prompt_type": "guidance",
+  "python_version": "N/A",
+  "gcp_services": ["bigquery"],
+  "estimated_time_saved": "50% reduction in query costs",
+  "dependencies": [],
+  "generates": [
+    "Optimized BigQuery SQL",
+    "Materialized View DDL"
+  ],
+  "quality_gates": {
+    "partition_pruning_verified": true
+  },
+  "deployment_target": "N/A",
+  "related_prompts": [
+    "../schema-design/partitioning-strategies-prompts.md",
+    "../cost-optimization/bigquery-cost/query-cost-analysis-prompts.md"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "category": "python-gcp-standards",
+  "subcategory": "coding-standards",
+  "prompt_type": "configuration",
+  "python_version": "3.12",
+  "gcp_services": [],
+  "estimated_time_saved": "15 minutes per PR",
+  "dependencies": [
+    "black==23.1.0",
+    "ruff==0.1.0",
+    "mypy==1.5.1"
+  ],
+  "generates": [
+    "pyproject.toml configuration",
+    "mypy.ini configuration"
+  ],
+  "quality_gates": {
+    "ruff_passing": true,
+    "type_coverage": 100
+  },
+  "deployment_target": "N/A",
+  "related_prompts": [
+    "../../github-actions-cicd/testing-workflows/pytest-ci-workflow-prompts.md"
+  ]
+}

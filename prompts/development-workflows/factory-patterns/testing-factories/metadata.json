@@ -1,0 +1,25 @@
+{
+  "category": "factory-patterns",
+  "subcategory": "testing-factories",
+  "prompt_type": "code-generation",
+  "python_version": "3.12",
+  "gcp_services": [],
+  "estimated_time_saved": "1 hour per test suite",
+  "dependencies": [
+    "pytest",
+    "faker",
+    "pandas",
+    "unittest.mock"
+  ],
+  "generates": [
+    "pytest fixtures",
+    "reusable test data generation classes"
+  ],
+  "quality_gates": {
+    "reduces_test_boilerplate": true
+  },
+  "deployment_target": "N/A",
+  "related_prompts": [
+    "../../python-gcp-standards/testing-strategies/pytest-fixtures-gcp-prompts.md"
+  ]
+}
