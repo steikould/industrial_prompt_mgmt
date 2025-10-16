@@ -145,7 +145,7 @@ Describe various ingestion approaches:
 **Data Quality at Ingestion:**
 
 Critical considerations:
-- Handling OT data challenges: varying identifiers, uneven spacing, spike/out-of-range values, bad sensor readings, communication failures
+- Handling OT data challenges: varying identifiers, uneven spacing, spike/out of range values, bad sensor readings, communication failures
 - Timestamp alignment and synchronization across sensors
 - Missing data imputation strategies
 - Sensor calibration drift detection
@@ -872,7 +872,7 @@ The dashboard isn't just for viewing—it's an **action center** that:
 **6. Feature Table Query Builder (Collapsible Panel):**
 - The "power user" interface for feature exploration
 - Sections outlined in Section 5
-- Saved queries library
+- Saved queries and templates library
 - Export functionality
 - Share with team feature
 
