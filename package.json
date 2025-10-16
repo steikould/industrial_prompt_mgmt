@@ -1,0 +1,24 @@
+{
+  "name": "blog-publishing-system",
+  "version": "1.0.0",
+  "description": "Automated blog publishing system",
+  "main": "scripts/publish.js",
+  "scripts": {
+    "start": "node scripts/publish.js"
+  },
+  "keywords": [
+    "blog",
+    "automation",
+    "github-actions"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "axios": "^1.6.0",
+    "gray-matter": "^4.0.3",
+    "marked": "^11.0.0",
+    "twitter-api-v2": "^1.15.0",
+    "isomorphic-dompurify": "^2.9.0"
+  }
+}
